@@ -1,0 +1,23 @@
+{
+  "name": "node-game-world",
+  "version": "1.0.0",
+  "description": "Authoritative game server for bumpers.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bumpers-io/node-game-world.git"
+  },
+  "author": "Chris Zhu",
+  "license": "N/A",
+  "bugs": {
+    "url": "https://github.com/bumpers-io/node-game-world/issues"
+  },
+  "homepage": "https://github.com/bumpers-io/node-game-world#readme",
+  "dependencies": {
+    "socket.io": "^2.1.1"
+  }
+}
